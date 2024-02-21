@@ -1,0 +1,94 @@
+
+.new-product{
+    padding: 150px 0;
+}
+.new-product .titel{
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.new-product .titel h1{
+    font-size: 40px;
+    color: #000;
+    font-weight: 600; 
+}
+.new-product .titel .hr{
+    width: 205px;
+    border: 1.8px solid #008cff;
+    margin-left: 567px;
+ 
+}
+
+.our-team .carddds{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3;
+    padding: 0 20px;
+}
+
+.our-team .carddds .cardss-1 .head-conten img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+.our-team .carddds .cardss-1 .head-conten  .imaghee{
+    margin-left: 10px;
+}
+
+.our-team .carddds .cardss-1{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(192, 191, 191);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.our-team .carddds .cardss-1 .head-conten{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1px;
+    margin-bottom: 20px;
+}
+
+.our-team .carddds .cardss-1 .head-conten h1{
+    text-align: center;
+    margin-top: 15px;
+    color: #008cff;
+}
+.our-team .carddds .cardss-1 .head-conten span{
+    font-size: 18px;
+    color: rgb(238, 237, 237);
+    margin-left: 20px;
+}
+
+
+.our-team .carddds .cardss-1 .icon-section{
+    margin-bottom: 10px;
+    background-color: #008cff;
+}
+.our-team .carddds .cardss-1 .icon-section i{
+    color: #fff;
+    padding: 6px 6px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 0.4s all ease;
+}
+
+.our-team .carddds .cardss-1 .icon-section i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.our-team .carddds .cardss-1 p{
+    line-height: 1.5;
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+}
+
+.our-team {
+    padding: 70px 0px ;
+}
+
+/*end-section-our team*/

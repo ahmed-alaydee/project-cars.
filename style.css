@@ -1,0 +1,1672 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background-color: #eaf5ff;
+}
+/* */
+.navbar{
+    height: 15%;
+    width: 100%;
+   background-image: linear-gradient(rgba(255, 0, 0, 0.541),rgba(255, 0, 0, 0.521)),url(img/car.jpeg);
+   background-position: center;
+   background-size: cover;
+    clip-path: polygon(100% 0, 90% 50%,50% 900%,10% 10%,0 0);
+    padding: 0 15%;
+    display: flex;
+
+align-items: center;
+justify-content:space-between;
+}
+
+.navbar #logo-pngg img{
+width: 90px;
+padding: 8px 8px ;
+background-color: rgb(253, 254, 255);
+border-radius: 50%;
+}
+
+.navbar ul{
+  display: flex;
+  padding: 10px 0px;
+    list-style: none;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navbar ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 23px;
+font-weight: 700;
+font-family:'Courier New', Courier, monospace;
+transition: 0.4s all ease;
+}
+
+.navbar ul li a:hover{
+color: #00000094;
+}
+
+.container .header{
+    display: flex;
+    padding: 150px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .section-left{
+    width: 400px;
+    margin-left: 150px;
+    margin-bottom: 170px;
+}
+
+.header .section-left h1{
+    margin-bottom: 20px;
+    font-size: 47px;
+    font-weight: 800;
+    color: red;
+    font-family: sans-serif;
+}
+
+.header .section-left p{
+    width: 500px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.header .section-left a{
+text-decoration: none;
+font-family: sans-serif;
+}
+
+.header .section-left  .btn{
+padding: 15px 20px;
+background-color: red;
+color: #fff;
+font-family: 700;
+border-radius: 10px;
+}
+
+
+.container .header .section-right img{
+width: 500px;
+margin-right: 100px;
+border-radius: 10px;
+}
+/*-------------------------------------------*/
+/*start-blig-style*/
+.blog-car {
+padding: 50px 0px;
+}
+.contaniar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient( rgba(12, 12, 12, 0.788),rgba(19, 0, 0, 0.363)),url(img/caaaaar-4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contaniar  .right-said{
+    margin-left: 180px;
+}
+
+.contaniar  .right-said p{
+width: 450px;
+margin-left: 30px;
+color: #636262;
+margin-top: 20px;
+margin-bottom: 40px;
+cursor: pointer;
+}
+.contaniar  .right-said h1{
+ width: 410px;
+ color: #fff;
+ transition: 0.4s all ease;
+ margin-bottom: 10px;
+
+}
+
+.contaniar  .right-said .btn{
+    padding: 15px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: #ff5e00;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+    transition: 0.4s all ease;
+    cursor: pointer;
+}
+.contaniar  .right-said .btn:hover{
+    background-color: #292828;
+}
+.contaniar  .right-said h1:hover{
+    color: #ff5e00;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.contaniar  .right-said h4{
+    color: #636262;
+    margin-bottom: 10px;
+    transition: 0.4s;
+}
+
+.contaniar  .right-said h4 span{
+    margin-right: 10px;
+    color: #fff;
+}
+.contaniar  .right-said h4:hover{
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+
+
+
+.contaniar .left-said img{
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+    margin-left: 140px;
+    
+}
+
+
+/*end-blig-style*/
+/*-----------------------------------------------------------------------------------------------------*/
+/* start sect4ion--New product*/
+.new-product{
+    padding: 150px 0;
+}
+.new-product .titel{
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.new-product .titel h1{
+    font-size: 40px;
+    color: #000;
+    font-weight: 600; 
+}
+.new-product .titel .hr{
+    width: 205px;
+    border: 1.8px solid #008cff;
+    margin-left: 567px;
+    margin-top: 10px;
+}
+
+.new-product .cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+
+
+.cards .card-1{
+    transition: 0.8s all ease;
+}
+.cards .card-1:hover{
+    transform: scale(1.1);
+     color: #fff;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.466),rgba(71, 60, 60, 0.37)),url(img/caaaaar-4.jpeg);
+}
+.cards .card-1 img{
+    width: 410px;
+    height: 250;
+    border-radius: 8px;
+}
+
+.cards .card-1 .imgee .fffff{
+    height: 230px;
+}
+
+.cards .card-1 .imgee{
+    margin-bottom: 15px;
+}
+
+.cards .card-1 {
+    padding: 19px 13px;
+    box-sizing: border-box;
+    gap: 1;
+    border: 0.1px solid #5c5c5cb6;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+.content-titel .h1{
+    display: flex;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.content-titel .h1 h1{
+    margin-left: 26px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content-titel .h1 h2{
+    margin-right: 33px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff5e00;
+}
+
+.content-titel h3{
+    margin-bottom: 20px;
+    margin-right: 280px;
+    margin-top: 20px;
+    color: rgba(128, 128, 128, 0.76);
+    font-size: 15px;
+    font-family:sans-serif ;
+}
+
+.content-titel .h1-footer{
+    display: flex;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.content-titel .h1-footer h1{
+    background-color: gray;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/*end sectuion--New product*/
+/*---------------------------------------------------------*/
+/*start-section-our team*/
+.our-team .carddds{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3;
+    padding: 0 20px;
+}
+
+.our-team .carddds .cardss-1 .head-conten img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+.our-team .carddds .cardss-1 .head-conten  .imaghee{
+    margin-left: 10px;
+}
+
+.our-team .carddds .cardss-1{
+    padding: 20px 20px;
+    text-align: center;
+    background-color: rgb(192, 191, 191);
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.our-team .carddds .cardss-1 .head-conten{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1px;
+    margin-bottom: 20px;
+}
+
+.our-team .carddds .cardss-1 .head-conten h1{
+    text-align: center;
+    margin-top: 15px;
+    color: #008cff;
+}
+.our-team .carddds .cardss-1 .head-conten span{
+    font-size: 18px;
+    color: rgb(238, 237, 237);
+    margin-left: 20px;
+}
+
+
+.our-team .carddds .cardss-1 .icon-section{
+    margin-bottom: 10px;
+    background-color: #008cff;
+}
+.our-team .carddds .cardss-1 .icon-section i{
+    color: #fff;
+    padding: 6px 6px;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 0.4s all ease;
+}
+
+.our-team .carddds .cardss-1 .icon-section i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.our-team .carddds .cardss-1 p{
+    line-height: 1.5;
+    font-size: 17px;
+    color: rgb(80, 80, 80);
+}
+
+.our-team {
+    padding: 70px 0px ;
+}
+
+/*end-section-our team*/
+/*---------------------------------------------*/
+/*start Our service*/
+
+.Service-section{
+    height: 60vh;
+    width: 100%;
+    padding: 70px 0px;
+    margin-bottom: 30px;
+  background-image: linear-gradient(rgba(36, 35, 35, 0.527),rgba(70, 70, 70, 0.479)),url(img/car.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.Service-section .titel{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Service-section .titel h1{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.Service-section .titel .hr{
+    width: 180px;
+    margin-left: 580px;
+    border: 2px solid #008cff;
+    color: #008cff;
+}
+
+
+.Service-section .iconsss{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+
+.Service-section .iconsss .icon1{
+    padding: 40px -5px;
+}
+
+.Service-section .iconsss .icon1 i{
+    padding: 18px 18px;
+    background-color:transparent;
+    color: #ffffff;
+    font-size: 28px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    transition: 0.4s all ease;
+   
+}
+
+.Service-section .iconsss .icon1 i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Service-section .iconsss .icon1 h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Service-section .iconsss  .icon1 h1 span{
+ margin-right: 30px;
+    line-height: 2;
+}
+
+/*end Our service*/
+/*=-=-------------------------*/
+/*start section-footer*/
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #2b2b2bf5;
+
+}
+
+.footer .section-footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.footer .section-footer .footer-1{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.footer .section-footer .footer-1 h1{
+ margin-right: 150px;
+ margin-bottom: 10px;
+ color: #fff;
+ font-size: 30px;
+ font-weight: 600;
+}
+
+.footer .section-footer .footer-1 p{
+    line-height: 1.5;
+    color: #fff;
+    width: 330px;
+    font-size: 18px;
+    margin-right:50px ;
+    margin-bottom: 20px;
+}
+
+.footer .section-footer .footer-1 .icone{
+margin-top: 10px;
+margin-bottom: 10px;
+padding: -15px 0;
+} 
+.footer .section-footer .footer-1 .icone i{
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    gap: 3;
+}
+
+footer .section-footer .footer-2{
+    margin-left: 150px;
+}
+.footer .section-footer .footer-2 h1{
+ color: #fff;
+ font-size: 25px;
+ font-weight: 600;
+ text-align: center;
+ margin-right: 100px;
+ margin-bottom: 20px;
+}
+
+.footer .section-footer .footer-2 .link-a a{
+display: block;
+text-decoration: none;
+padding: 10x 0;
+font-size: 23px;
+font-weight: 700;
+color: #fff;
+line-height: 1.6;
+}
+
+.footer .section-footer .footer-3{
+    margin-right: 100px;
+}
+
+
+.footer .section-footer .footer-3 h1{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+}
+
+.footer .section-footer .footer-3 p{
+    color: #636262;
+}
+
+.footer .section-footer .footer-3 .tttdsf{
+    margin-top: 13px;
+    cursor: pointer;
+    color: #969696;
+}
+/*end section-footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+
+@media(max-width:1115px){
+   
+.container{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    background-color: #eaf5ff;
+}
+/* */
+.navbar{
+height: 15%;
+width: 100%;
+background-image: linear-gradient(rgba(255, 0, 0, 0.541),rgba(255, 0, 0, 0.521)),url(img/car.jpeg);
+background-position: center;
+background-size: cover;
+clip-path: polygon(100% 0, 90% 50%,50% 900%,10% 10%,0 0);
+padding: 0 15%;
+display: flex;
+align-items: center;
+justify-content:space-between;
+}
+
+.navbar #logo-pngg img{
+width: 90px;
+padding: 8px 8px ;
+background-color: rgb(253, 254, 255);
+border-radius: 50%;
+}
+
+.navbar ul{
+display: flex;
+padding: 10px 0px;
+list-style: none;
+}
+
+.navbar ul li{
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.navbar ul li a{
+color: #fff;
+text-decoration: none;
+font-size: 23px;
+font-weight: 700;
+font-family:'Courier New', Courier, monospace;
+transition: 0.4s all ease;
+}
+
+.navbar ul li a:hover{
+color: #00000094;
+border: 1px solid #ff5e00;
+}
+
+.container .header{
+    display: flex;
+    padding: 150px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .section-left{
+    width: 200px;
+    margin-left: 100px;
+    margin-bottom: 150px;
+}
+
+.header .section-left h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800;
+    color: red;
+    font-family: sans-serif;
+}
+
+.header .section-left p{
+    width: 300px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.header .section-left a{
+text-decoration: none;
+font-family: sans-serif;
+}
+
+.header .section-left  .btn{
+padding: 10px 15px;
+background-color: red;
+color: #fff;
+font-family: 600;
+border-radius: 8px;
+}
+
+
+.container .header .section-right img{
+width: 450px;
+margin-right: 90px;
+border-radius: 10px;
+}
+
+
+
+
+/*-------------------------------------------*/
+/*start-blig-style*/
+.blog-car {
+padding: 50px 0px;
+overflow: hidden;
+}
+.contaniar{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient( rgba(12, 12, 12, 0.788),rgba(19, 0, 0, 0.363)),url(img/caaaaar-4.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.contaniar  .right-said{
+    margin-left: 90px;
+}
+
+.contaniar  .right-said p{
+width: 450px;
+margin-left: 30px;
+color: #636262;
+margin-top: 20px;
+margin-bottom: 40px;
+cursor: pointer;
+}
+.contaniar  .right-said h1{
+ width: 410px;
+ color: #fff;
+ transition: 0.4s all ease;
+ margin-bottom: 10px;
+
+}
+
+.contaniar  .right-said .btn{
+    padding: 15px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: #ff5e00;
+    border: none;
+ color: #fff;
+font-size: 21px;
+transition: 0.4s all ease;
+cursor: pointer;
+}
+.contaniar  .right-said .btn:hover{
+background-color: #292828;
+}
+.contaniar  .right-said h1:hover{
+color: #ff5e00;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+.contaniar .right-said h4{
+color: #636262;
+margin-bottom: 10px;
+transition: 0.4s;
+}
+
+.contaniar  .right-said h4 span{
+margin-right: 10px;
+color: #fff;
+}
+.contaniar  .right-said h4:hover{
+cursor: pointer;
+margin-bottom: 15px;
+}
+
+.contaniar .left-said img{
+width: 400px;
+height: 500px;
+border-radius: 6px;
+margin-left: 140px;  
+}
+
+
+/*end-blig-style*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+/* start sect4ion--New product*/
+.new-product{
+    padding: 150px 0;
+
+}
+.new-product .titel{
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.new-product .titel h1{
+    font-size: 40px;
+    color: #000;
+    font-weight: 600; 
+}
+.new-product .titel .hr{
+    width: 200px;
+    border: 1.8px solid #008cff;
+    margin-left: 460px;
+    margin-top: 10px;
+}
+
+.new-product .cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+}
+
+
+.cards .card-1{
+    transition: 0.9s all ease;
+}
+.cards .card-1:hover{
+    transform: scale(1.1);
+     color: #fff;
+    background-image: linear-gradient(rgba(7, 7, 7, 0.466),rgba(71, 60, 60, 0.37)),url(img/caaaaar-4.jpeg);
+}
+.cards .card-1 img{
+    width: 200px;
+    height: 100px;
+    border-radius: 8px;
+}
+
+.cards .card-1 .imgee .fffff{
+    height: 100px;
+}
+
+.cards .card-1 .imgee{
+    margin-bottom: 15px;
+}
+
+.cards .card-1 {
+    padding: 10px 0px;
+    box-sizing: border-box;
+    gap: 1;
+    border: 0.1px solid #5c5c5cb6;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+.content-titel .h1{
+    display: flex;
+   margin-right: 100px;
+   margin-bottom: 10px;
+}
+
+.content-titel .h1 h1{
+    margin-left: 18px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content-titel .h1 h2{
+    margin-right: 23px;
+    font-size: 25px;
+    font-weight: 600;
+    color: #ff5e00;
+}
+
+.content-titel h3{
+    margin-bottom: 10px;
+
+    margin-top: 20px;
+    color: rgba(128, 128, 128, 0.76);
+    font-size: 10px;
+    font-family:sans-serif ;
+}
+
+.content-titel .h1-footer{
+    display: flex;
+    margin-right: 8px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.content-titel .h1-footer h1{
+    background-color: gray;
+    font-weight: 600;
+    margin-right: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/*end sectuion--New product*/
+/*---------------------------------------------------------*/
+
+
+
+/*start-section-our team*/
+.our-team .carddds{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 3;
+    padding: 0 15px;
+}
+
+.our-team .carddds .cardss-1 .head-conten img{
+    width: 108px;
+    height: 108px;
+    border-radius: 10px;
+
+}
+.our-team .carddds .cardss-1 .head-conten  .imaghee{
+    margin-left: 10px;
+}
+
+.our-team .carddds .cardss-1{
+    padding: 15px 10px;
+    text-align: center;
+    background-color: rgb(192, 191, 191);
+    margin-right: 25px;
+    border-radius: 8px;
+}
+
+.our-team .carddds .cardss-1 .head-conten{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1px;
+    margin-bottom: 20px;
+}
+
+.our-team .carddds .cardss-1 .head-conten h1{
+    text-align: center;
+    margin-top: 15px;
+    color: #008cff;
+}
+.our-team .carddds .cardss-1 .head-conten span{
+    font-size: 20px;
+    color: rgb(238, 237, 237);
+    margin-left: 20px;
+}
+
+
+.our-team .carddds .cardss-1 .icon-section{
+    margin-bottom: 10px;
+    background-color: #008cff;
+}
+.our-team .carddds .cardss-1 .icon-section i{
+    color: #fff;
+    padding: 5px ;
+    margin-left: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: 0.4s all ease;
+}
+
+.our-team .carddds .cardss-1 .icon-section i:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.our-team .carddds .cardss-1 p{
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+}
+
+.our-team {
+    padding: 80px 0px ;
+}
+
+/*end-section-our team*/
+/*---------------------------------------------*/
+/*start Our service*/
+
+.Service-section{
+    height: 60vh;
+    width: 100%;
+    padding: 70px 0px;
+    margin-bottom: 30px;
+  background-image: linear-gradient(rgba(36, 35, 35, 0.527),rgba(70, 70, 70, 0.479)),url(img/car.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.Service-section .titel{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.Service-section .titel h1{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.Service-section .titel .hr{
+    width: 180px;
+    margin-left: 580px;
+    border: 2px solid #008cff;
+    color: #008cff;
+}
+
+
+.Service-section .iconsss{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+
+.Service-section .iconsss .icon1{
+    padding: 40px -5px;
+}
+
+.Service-section .iconsss .icon1 i{
+    padding: 18px 18px;
+    background-color:transparent;
+    color: #ffffff;
+    font-size: 28px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    transition: 0.4s all ease;
+   
+}
+
+.Service-section .iconsss .icon1 i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.Service-section .iconsss .icon1 h1{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.Service-section .iconsss  .icon1 h1 span{
+ margin-right: 30px;
+    line-height: 2;
+}
+
+/*end Our service*/
+/*=-=-------------------------*/
+/*start section-footer*/
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: #2b2b2bf5;
+
+}
+
+.footer .section-footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.footer .section-footer .footer-1{
+    margin-left: 150px;
+    margin-top: 60px;
+}
+.footer .section-footer .footer-1 h1{
+ margin-right: 150px;
+ margin-bottom: 10px;
+ color: #fff;
+ font-size: 30px;
+ font-weight: 600;
+}
+
+.footer .section-footer .footer-1 p{
+    line-height: 1.5;
+    color: #fff;
+    width: 330px;
+    font-size: 18px;
+    margin-right:50px ;
+    margin-bottom: 20px;
+}
+
+.footer .section-footer .footer-1 .icone{
+margin-top: 10px;
+margin-bottom: 10px;
+padding: -15px 0;
+} 
+.footer .section-footer .footer-1 .icone i{
+    font-size: 25px;
+    color: #fff;
+    padding: 10px 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    gap: 3;
+}
+
+footer .section-footer .footer-2{
+    margin-left: 150px;
+}
+.footer .section-footer .footer-2 h1{
+ color: #fff;
+ font-size: 25px;
+ font-weight: 600;
+ text-align: center;
+ margin-right: 100px;
+ margin-bottom: 20px;
+}
+
+.footer .section-footer .footer-2 .link-a a{
+display: block;
+text-decoration: none;
+padding: 10x 0;
+font-size: 23px;
+font-weight: 700;
+color: #fff;
+line-height: 1.6;
+}
+
+.footer .section-footer .footer-3{
+    margin-right: 100px;
+}
+
+
+.footer .section-footer .footer-3 h1{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    
+}
+
+.footer .section-footer .footer-3 p{
+    color: #636262;
+}
+
+.footer .section-footer .footer-3 .tttdsf{
+    margin-top: 13px;
+    cursor: pointer;
+    color: #969696;
+} 
+
+
+}
+
+
+
+
+
+
+/*meadia----2222*/
+
+
+/*meadia--------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+/*@media -------------------------------------------------------------------------------------------------*/
+
+@media(max-width:1990px){
+   
+    .container{
+        overflow: hidden;
+        height: 90vh;
+        width: 100%;
+        position: relative;
+        background-color: #eaf5ff;
+    }
+    /* */
+    .navbar{
+    height: 15%;
+    width: 100%;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.541),rgba(255, 0, 0, 0.521)),url(img/car.jpeg);
+    background-position: center;
+    background-size: cover;
+    clip-path: polygon(100% 0, 90% 50%,50% 900%,10% 10%,0 0);
+    padding: 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    }
+    
+    .navbar #logo-pngg img{
+    width: 90px;
+    padding: 8px 8px ;
+    background-color: rgb(253, 254, 255);
+    border-radius: 50%;
+    }
+    
+    .navbar ul{
+    display: flex;
+    padding: 10px 0px;
+    list-style: none;
+    }
+    
+    .navbar ul li{
+        text-decoration: none;
+        padding-left:40px;
+    }
+    
+    .navbar ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    font-family:'Courier New', Courier, monospace;
+    transition: 0.4s all ease;
+    }
+    
+    .navbar ul li a:hover{
+    color: #00000094;
+    border: 1px solid #ff5e00;
+    }
+    
+    .container .header{
+        display: flex;
+        padding: 100px 0;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .header .section-left{
+        width: 200px;
+        margin-left: 280px;
+        margin-bottom: 150px;
+    }
+    
+    .header .section-left h1{
+        margin-bottom: 17px;
+        font-size: 50px;
+        font-weight: 800;
+        color: red;
+        font-family: sans-serif;
+    }
+    
+    .header .section-left p{
+        width: 400px;
+        line-height: 1.4;
+        margin-bottom: 32px;
+        font-size: 22px;
+        color: #636262;
+    }
+    
+    .header .section-left a{
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: 0.5s;
+    font-size: 25px;
+    }
+    
+    .header .section-left  .btn{
+    padding: 13px 19px;
+    background-color: red;
+    color: #fff;
+    font-family: 600;
+    border-radius: 10px;
+ 
+    }
+    .header .section-left .btn a:hover{
+        transform: scale(1.1);
+    }
+    
+    
+    .container .header .section-right img{
+    width: 700px;
+    margin-right: 250px;
+    border-radius: 8px;
+    }
+    
+    
+    
+    
+    /*-------------------------------------------*/
+    /*start-blig-style*/
+    .blog-car {
+    padding: 50px 0px;
+    overflow: hidden;
+    }
+    .contaniar{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-image: linear-gradient( rgba(12, 12, 12, 0.788),rgba(119, 119, 119, 0.363)),url(img/caaaaar-4.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+    }
+    .contaniar  .right-said{
+        margin-left: 90px;
+    }
+    
+    .contaniar  .right-said p{
+    width: 450px;
+    margin-left: 30px;
+    color: #636262;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    }
+    .contaniar  .right-said h1{
+     width: 410px;
+     color: #fff;
+     transition: 0.4s all ease;
+     margin-bottom: 10px;
+    
+    }
+    
+    .contaniar  .right-said .btn{
+        padding: 15px 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 10px;
+        background-color: #ff5e00;
+        border: none;
+     color: #fff;
+    font-size: 21px;
+    transition: 0.4s all ease;
+    cursor: pointer;
+    }
+    .contaniar  .right-said .btn:hover{
+    background-color: #292828;
+    }
+    .contaniar  .right-said h1:hover{
+    color: #ff5e00;
+    margin-bottom: 20px;
+    cursor: pointer;
+    }
+    
+    .contaniar .right-said h4{
+    color: #636262;
+    margin-bottom: 10px;
+    transition: 0.4s;
+    }
+    
+    .contaniar  .right-said h4 span{
+    margin-right: 10px;
+    color: #fff;
+    }
+    .contaniar  .right-said h4:hover{
+    cursor: pointer;
+    margin-bottom: 15px;
+    }
+    
+    .contaniar .left-said img{
+    width: 400px;
+    height: 500px;
+    border-radius: 6px;
+    margin-left: 140px;  
+    }
+    
+    
+    /*end-blig-style*/
+    /*-----------------------------------------------------------------------------------------------------*/
+    
+    
+    
+    
+    
+    /* start sect4ion--New product*/
+    .new-product{
+        overflow: hidden;
+        padding: 100px 0;
+    
+    }
+    .new-product .titel{
+        text-align: center;
+        margin-bottom: 50px;
+        cursor: pointer;
+    }
+    
+    .new-product .titel h1{
+        font-size: 40px;
+        color: #000;
+        font-weight: 600; 
+    }
+    .new-product .titel .hr{
+        width: 250px;
+        border: 1.8px solid #0004ff;
+        margin-left: 870px;
+        margin-top: 8px;
+    }
+    
+    .new-product .cards {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        text-align: center;
+    }
+    
+    
+    .cards .card-1{
+        transition: 0.9s all ease;
+    }
+    .cards .card-1:hover{
+        transform: scale(1.1);
+         color: #fff;
+        background-image: linear-gradient(rgba(7, 7, 7, 0.466),rgba(71, 60, 60, 0.37)),url(img/caaaaar-4.jpeg);
+    }
+    .cards .card-1 img{
+        width:350px;
+        height: 300px;
+        border-radius: 8px;
+        margin-right: 20px;
+    }
+    
+    .cards .card-1 .imgee .fffff{
+        height:290px;
+    }
+    
+    .cards .card-1 .imgee{
+        margin-bottom: 15px;
+    }
+    
+    .cards .card-1 {
+      padding: 10px 0px;
+        box-sizing: border-box;
+        gap: 3;
+        border: 0.1px solid #5c5c5cb6;
+        margin: 8px  3px;
+        border-radius: 10px;
+    }
+    
+    .content-titel .h1{
+        display: flex;
+       margin-right:150px;
+       margin-bottom: 10px;
+    }
+    
+    .content-titel .h1 h1{
+        margin-left: 45px;
+        font-size: 35px;
+        font-weight: 600;
+    }
+    
+    .content-titel .h1 h2{
+        margin-right: 23px;
+        font-size: 30px;
+        font-weight: 600;
+        color: #ff5e00;
+    }
+    
+    .content-titel h3{
+        margin-bottom: 14px;
+        margin-top: 10px;
+        color: rgba(128, 128, 128, 0.76);
+        font-size: 20px;
+        font-family:sans-serif ;
+    }
+    
+    .content-titel .h1-footer{
+        display: flex;
+        margin-right: 8px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    
+    .content-titel .h1-footer h1{
+        background-color: gray;
+        font-weight: 600;
+        margin-right: 5px;
+        margin-left: 10px;
+        border-radius: 5px;
+        font-size: 20px;
+    }
+    
+    /*end sectuion--New product*/
+    /*---------------------------------------------------------*/
+    
+    
+    
+    /*start-section-our team*/
+    .our-team .carddds{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 2;
+        overflow: hidden;
+        padding: 0 80px;
+    }
+    
+    .our-team .carddds .cardss-1 .head-conten img{
+        width: 110px;
+        height: 110px;
+        border-radius: 10px;
+    margin-right: 18px;
+    }
+    .our-team .carddds .cardss-1 .head-conten  .imaghee{
+        margin-left: 10px;
+    }
+    
+    .our-team .carddds .cardss-1{
+        padding: 15px 0px;
+        text-align: center;
+        background-color: rgb(192, 191, 191);
+        margin-right: 20px;
+        border-radius: 8px;
+    }
+    
+    .our-team .carddds .cardss-1 .head-conten{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 18px;
+    }
+    
+    .our-team .carddds .cardss-1 .head-conten h1{
+        text-align: center;
+        font-size: 35px;
+        margin-top: 18px;
+      
+        color: #008cff;
+    }
+    .our-team .carddds .cardss-1 .head-conten {
+        margin-left: 20px;
+    }
+    .our-team .carddds .cardss-1 .head-conten span{
+        font-size: 20px;
+        color: rgb(238, 237, 237);
+        margin-left: 20px;
+    }
+    
+    
+    .our-team .carddds .cardss-1 .icon-section{
+        margin-bottom: 10px;
+        background-color: #008cff;
+    }
+    .our-team .carddds .cardss-1 .icon-section i{
+        color: #fff;
+        padding: 5px ;
+        margin-left: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        transition: 0.4s all ease;
+    }
+    
+    .our-team .carddds .cardss-1 .icon-section i:hover{
+        transform: scale(1.2);
+        cursor: pointer;
+    }
+    
+    .our-team .carddds .cardss-1 p{
+        line-height: 1.5;
+        font-size: 15px;
+        color: rgb(80, 80, 80);
+    }
+    
+    .our-team {
+        padding: 80px 0px ;
+    }
+    
+    /*end-section-our team*/
+    /*---------------------------------------------*/
+    /*start Our service*/
+  
+    .Service-section{
+        height: 60vh;
+        overflow: hidden;
+        width: 97%;
+        padding: 70px 0px;
+        margin-bottom: 30px;
+      background-image: linear-gradient(rgba(36, 35, 35, 0.527),rgba(70, 70, 70, 0.479)),url(img/car.jpeg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 5px;
+    }
+    
+    .Service-section .titel{
+        text-align: center;
+        margin-bottom: 50px;
+
+    }
+    .Service-section .titel h1{
+        text-align: center;
+        color: #fff;
+        font-size: 35px;
+        margin-bottom: 8px;
+    }
+    .Service-section .titel .hr{
+        width: 190px;
+        margin-left: 890px;
+        border: 2.5px solid #0011ff;
+        color: #008cff;
+    }
+    
+    
+    .Service-section .iconsss{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        text-align: center;
+    }
+    
+    .Service-section .iconsss .icon1{
+        padding: 40px -5px;
+    }
+    
+    .Service-section .iconsss .icon1 i{
+        padding: 18px 18px;
+        background-color:transparent;
+        color: #ffffff;
+        font-size: 28px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin-bottom: 25px;
+        transition: 0.4s all ease;
+       
+    }
+    
+    .Service-section .iconsss .icon1 i:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+    
+    .Service-section .iconsss .icon1 h1{
+        color: #fff;
+        font-size: 25px;
+        font-weight: 600;
+    }
+    
+    .Service-section .iconsss  .icon1 h1 span{
+     margin-right: 30px;
+        line-height: 2;
+    }
+    
+    /*end Our service*/
+    /*=-=-------------------------*/
+    /*start section-footer*/
+    .footer{
+        width: 100%;
+        height: 70vh;
+        background-color: #2b2b2bf5;
+    
+    }
+    
+    .footer .section-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    
+    .footer .section-footer .footer-1{
+        margin-left: 150px;
+        margin-top: 60px;
+    }
+    .footer .section-footer .footer-1 h1{
+     margin-right: 150px;
+     margin-bottom: 10px;
+     color: #fff;
+     font-size: 30px;
+     font-weight: 600;
+    }
+    
+    .footer .section-footer .footer-1 p{
+        line-height: 1.5;
+        color: #fff;
+        width: 330px;
+        font-size: 18px;
+        margin-right:50px ;
+        margin-bottom: 20px;
+    }
+    
+    .footer .section-footer .footer-1 .icone{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: -15px 0;
+    } 
+    .footer .section-footer .footer-1 .icone i{
+        font-size: 25px;
+        color: #fff;
+        padding: 10px 10px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        gap: 3;
+    }
+    
+    footer .section-footer .footer-2{
+        margin-left: 150px;
+    }
+    .footer .section-footer .footer-2 h1{
+     color: #fff;
+     font-size: 25px;
+     font-weight: 600;
+     text-align: center;
+     margin-right: 100px;
+     margin-bottom: 20px;
+    }
+    
+    .footer .section-footer .footer-2 .link-a a{
+    display: block;
+    text-decoration: none;
+    padding: 10x 0;
+    font-size: 23px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.6;
+    }
+    
+    .footer .section-footer .footer-3{
+        margin-right: 100px;
+    }
+    
+    
+    .footer .section-footer .footer-3 h1{
+        color: #fff;
+        text-align: center;
+        font-size: 22px;
+        margin-bottom: 20px;
+        
+    }
+    
+    .footer .section-footer .footer-3 p{
+        color: #636262;
+    }
+    
+    .footer .section-footer .footer-3 .tttdsf{
+        margin-top: 13px;
+        cursor: pointer;
+        color: #969696;
+    } 
+    
+    
+    }
